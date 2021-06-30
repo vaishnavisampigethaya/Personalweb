@@ -1,17 +1,17 @@
-.home h1,
-.home h4 {
-  text-align: center;
-}
-
-.container {
+.about {
+  padding: 25px;
   display: block;
-  margin: auto;
+  margin-top: 70px;
+  margin-left: 115px;
   width: 80%;
   border: 3px solid rgb(156, 205, 224);
-  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  background-color: white;
   font-size: 25px;
+  background-color: white;
+}
+
+.abt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
