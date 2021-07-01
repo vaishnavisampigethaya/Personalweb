@@ -1,0 +1,2 @@
+(this.webpackJsonppersonalweb=this.webpackJsonppersonalweb||[]).push([[8],{39:function(n,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return s}));r(0);var t=r(1);function s(n){return Object(t.jsx)("div",{children:Object(t.jsx)("h1",{children:"404 Error Not Found"})})}}}]);
+//# sourceMappingURL=8.0c414832.chunk.js.map
