@@ -1,5 +1,5 @@
 # Demo of this Web Application
-  To see the demo click on this link https://vaishnavisampigethaya.github.io/Personalweb/
+  To see the demo click on this link https://vaishnavisampigethaya.github.io/
 
 
 # Getting Started with Create React App
