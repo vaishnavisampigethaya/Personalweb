@@ -20,7 +20,7 @@ function App() {
               <Route path="/about" component={About}></Route>
               <Route path="/contact" component={Contact}></Route>
               <Route path="/course" component={Course}></Route>
-              <Route path="/" component={Home} exact></Route>
+              <Route path="/Personalweb" component={Home} exact></Route>
               <Route path="*" component={NotFound}></Route>
             </Switch>
           </Suspense>

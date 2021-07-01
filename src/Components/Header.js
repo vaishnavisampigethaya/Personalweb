@@ -14,7 +14,7 @@ export default function Header(props) {
         <ul>
           <li>
             <NavLink
-              to="/"
+              to="/Personalweb"
               style={{ textDecoration: "none" }}
               activeClassName="text-white"
               exact
