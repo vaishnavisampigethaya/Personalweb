@@ -1,0 +1,31 @@
+.course {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  margin-top: 60px;
+  margin-left: 115px;
+  margin-bottom: 15px;
+  width: 82%;
+  border: 3px solid rgb(156, 205, 224);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub {
+  color: black;
+  width: 15%;
+  padding: 10px;
+  margin-top: 5%;
+  margin-right: 10px;
+  height: 250px;
+  border: 3px solid rgb(156, 205, 224);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub a {
+  text-decoration: none;
+  color: black;
+}

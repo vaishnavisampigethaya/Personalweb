@@ -40,6 +40,15 @@ export default function Header(props) {
               Contact
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/course"
+              style={{ textDecoration: "none" }}
+              activeClassName="text-white"
+            >
+              Courses
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

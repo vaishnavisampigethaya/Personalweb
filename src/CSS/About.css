@@ -1,8 +1,9 @@
 .about {
   padding: 25px;
   display: block;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 115px;
+  margin-bottom: 15px;
   width: 80%;
   border: 3px solid rgb(156, 205, 224);
   border-radius: 10px;

@@ -1,11 +1,12 @@
-import { React } from "react";
+import { React, lazy, Suspense, useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-
+const About = lazy(() => import("./Components/About"));
+const Home = lazy(() => import("./Components/Home"));
+const Contact = lazy(() => import("./Components/Contact"));
+const Course = lazy(() => import("./Components/Course"));
+const NotFound = lazy(() => import("./Components/NotFound"));
 function App() {
   return (
     <div>
@@ -14,11 +15,15 @@ function App() {
           <Header />
         </div>
         <div>
-          <Switch>
-            <Route path="/about" component={About}></Route>
-            <Route path="/contact" component={Contact}></Route>
-            <Route path="/" component={Home} exact></Route>
-          </Switch>
+          <Suspense fallback={<div>Loading....</div>}>
+            <Switch>
+              <Route path="/about" component={About}></Route>
+              <Route path="/contact" component={Contact}></Route>
+              <Route path="/course" component={Course}></Route>
+              <Route path="/" component={Home} exact></Route>
+              <Route path="*" component={NotFound}></Route>
+            </Switch>
+          </Suspense>
         </div>
         <div>
           <Footer />
