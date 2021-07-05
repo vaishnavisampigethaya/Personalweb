@@ -6,7 +6,7 @@ export default function Header(props) {
   return (
     <div className="header">
       <div>
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/Personalweb" style={{ textDecoration: "none", color: "black" }}>
           <img src={logo} alt="Think" width="75px" height="75px" />
         </Link>
       </div>
