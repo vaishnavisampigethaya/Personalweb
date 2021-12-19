@@ -8,7 +8,7 @@ export default function Home() {
         <h1>Think Website</h1>
         <h4>Make Your learning Easy</h4>
         <div className="container">
-          <img src={light} alt="Light" width="300px" height="300px" />
+          <img src={light} alt="Light" width="40%" height="40%" />
           <p>
             This is a website, which will list a courses for your technical
             learning. The courses will be best as per our experience and others

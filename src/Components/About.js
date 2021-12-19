@@ -4,9 +4,10 @@ import learn from "./learning.jpg";
 export default function About() {
   return (
     <div className="abt">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
       <div className="about">
         <h1>About Us...</h1>
-        <img src={learn} alt="About" width="600px" height="400px" />
+        <img src={learn} alt="About" width="50%" height="60%" />
         <p>
           Create essential skills pathways with verifiable and stackable
           credentials to upskill and train every learner with the highest
