@@ -16,7 +16,7 @@
 
 .sub {
   color: black;
-  width: 15%;
+  width: 20%;
   padding: 10px;
   margin-top: 5%;
   margin-right: 10px;
@@ -24,7 +24,7 @@
   border: 3px solid rgb(156, 205, 224);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: scroll;
+  overflow: auto;
 }
 
 .sub a {
