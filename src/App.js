@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width" />
       </head>
       <BrowserRouter>
         <div>
