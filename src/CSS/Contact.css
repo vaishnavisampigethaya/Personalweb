@@ -32,7 +32,7 @@
   overflow: auto;
 }
 .flip-card {
-  padding: 20%;
+  margin: 50px auto;
   background-color: transparent;
   width: 300px;
   height: 300px;
